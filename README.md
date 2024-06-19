@@ -1,50 +1,22 @@
-# Welcome to your Expo app 👋
+# rn-assignment4-11178252
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## LoginScreen
 
-## Get started
+- This section represents the login screen of the application.
+- Users can enter their name and email.
+- Upon clicking the login button, it redirects to the HomeScreen and passes the entered name and email as parameters.
 
-1. Install dependencies
+## Homescreen
 
-   ```bash
-   npm install
-   ```
+- This component shows the homescreen once the login button is pressed.
+- It presents the user's name and email, which were passed from the LoginScreen.
+- Includes a search bar for finding items.
 
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Screenshots
+![Screenshot 1](./assets/screenshot (1).jpg){: width="200px"}
+![Screenshot 2](./assets/screenshot (2).jpg){: width="200px"}
+![Screenshot 3](./assets/screenshot (3).jpg){: width="200px"}
+![Screenshot 4](./assets/screenshot (4).jpg){: width="200px"}
+![Screenshot 5](./assets/screenshot (5).jpg){: width="200px"}
+![Screenshot 6](./assets/screenshot (6).jpg){: width="200px"}
+![Screenshot 7](./assets/screenshot (7).jpg){: width="200px"}
